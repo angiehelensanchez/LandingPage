@@ -1,11 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&display=swap');
+
+
 header {
     background-color: #D9BCA3;
 }
 
 body {
     background-color: #F2F1DC;
+    font-family: "Dosis", sans-serif;
 }
 
 footer {
  background-color: #D9BCA3;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.aboutUsPhotos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+.aboutUsPhotos > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profilePhoto {
+    width: 250px;
+}
+
+.aboutUsInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
 }
