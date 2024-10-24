@@ -4,15 +4,18 @@
 
 header {
     background-color: #D9BCA3;
+    text-align: center;
 }
 
 body {
     background-color: #F2F1DC;
     font-family: "Dosis", sans-serif;
+    font-size: 20px;
 }
 
 footer {
  background-color: #D9BCA3;
+ margin-top: 20px;
 }
 
 h2 {
@@ -25,12 +28,14 @@ h2 {
     display: flex;
     justify-content: space-around;
     font-size: 60px;
+    flex-wrap: wrap;
 }
 
 .aboutUsPhotos > div {
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .profilePhoto {
@@ -41,4 +46,38 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem 0 2rem;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+.angieHobbies, .arianaHobbies {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.angieHobbies > img , .arianaHobbies > img{
+    width: 200px;
+}
+
+.stackInfo {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem 0 2rem;
+}
+
+.ourPets {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ourPets > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ourPets img {
+    width: 250px;
+    
 }
