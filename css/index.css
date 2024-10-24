@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     background-color: #D9BCA3;
@@ -8,20 +13,28 @@ header {
 }
 
 body {
-    background-color: #F2F1DC;
+    /*background-color: #F2F1DC;*/
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+    background-size: cover;
     font-family: "Dosis", sans-serif;
     font-size: 20px;
 }
 
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 footer {
  background-color: #D9BCA3;
- margin-top: 20px;
 }
 
 h2 {
     font-family: "Dancing Script", cursive;
     font-size: 35px;
     text-align: center;
+    margin: 2rem;
 }
 
 .aboutUsPhotos {
@@ -46,11 +59,19 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem 0 2rem;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.aboutUsInfo > ul {
+    width: 500px;
 }
 
 .hobbies {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .angieHobbies, .arianaHobbies {
     display: flex;
@@ -65,17 +86,21 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding: 0 2rem 0 2rem;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .ourPets {
     display: flex;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .ourPets > div {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .ourPets img {
     width: 250px;
