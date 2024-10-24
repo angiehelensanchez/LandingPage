@@ -10,6 +10,8 @@
 header {
     background-color: #D9BCA3;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 body {
@@ -26,9 +28,6 @@ main {
     margin-bottom: 20px;
 }
 
-footer {
- background-color: #D9BCA3;
-}
 
 h2 {
     font-family: "Dancing Script", cursive;
@@ -105,4 +104,26 @@ h2 {
 .ourPets img {
     width: 250px;
     
+}
+
+footer {
+    background-color: #D9BCA3;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.social img {
+    width: 70px;
 }
